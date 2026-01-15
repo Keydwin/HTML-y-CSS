@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(97, 95, 95);
+    margin: 0px;
+}
+
+input{
+    margin: 50px;
+    padding: 8px;
+    border: none;
+    border-top: 3px solid rgb(197, 64, 64);
+    outline: 3px solid blue;
+    outline-offset: 5px;
+    transition: outline .1s;
+    
+}
+
+input:focus{
+    color: blue;
+}
+
+/* aqui se debe de quitar el outline */
+input:focus-visible{
+    outline: none;
+}
