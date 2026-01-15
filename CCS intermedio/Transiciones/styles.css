@@ -1,0 +1,17 @@
+div{
+    background: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    transition-property: color,background,font-size,left;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in;
+    position: relative;
+    left: 0;
+}
+
+body:hover div{
+    left: 400px;
+}
