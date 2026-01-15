@@ -1,0 +1,18 @@
+h1::first-letter{
+    color: red;
+    font-size: 80px;
+    font-family: sans-serif;
+    background: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    background: red;
+    padding: 0px;
+    margin: 0px;
+}
+
+li::marker{
+    color: aquamarine;
+}

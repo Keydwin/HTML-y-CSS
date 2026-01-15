@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+    font-family: Calibri;
+}
+
+.nota{
+    background-color:cadetblue;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    padding-top: 10px;
+}
+
+p{
+    background-color:aquamarine;
+    text-align: justify;
+    padding: 40px;
+}

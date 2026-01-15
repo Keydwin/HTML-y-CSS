@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(43, 38, 38);
+    font-family: sans-serif;
+}
+
+form{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 40px 0px rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(250, 244, 244);
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+    margin: 10px;
+}
+
+input, textarea{
+    width: 90%;
+    padding: 8px;
+    margin: 15px;
+    background: none;
+    border: none;
+    border-left: 5px solid white;
+    border-radius: 20px;
+}
+
+textarea{
+    color: white;
+}

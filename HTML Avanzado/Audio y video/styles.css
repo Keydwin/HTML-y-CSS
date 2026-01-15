@@ -1,0 +1,10 @@
+body{
+    background: rgb(48, 47, 47);
+    
+}
+
+video{
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(white, black);
+}

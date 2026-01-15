@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background: rgb(46, 43, 43);
+    margin: 0px;
+}
+
+.modal{
+    border-radius: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    background: rgb(202, 200, 200);
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.modal__button{
+    background: black;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}

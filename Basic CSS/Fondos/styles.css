@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(127, 255, 212, 0.589);
+    margin: 0;
+    text-align: justify;
+}
+
+div{
+    width: 100%;
+    height: 200px;
+    background: url(descargarei.png) top / cover fixed;
+}
+
+.opaco{
+    background-color: rgba(255, 250, 250, 0.76);
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+

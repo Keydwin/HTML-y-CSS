@@ -1,0 +1,29 @@
+h1:hover{
+    color: blue;
+    background: black;
+}
+
+h2:active{
+    background: black;
+    color: white;
+}
+
+.ele li:nth-child(4){
+    color: rgb(207, 184, 184);
+}
+
+li:nth-child(2n){
+    color: rgb(177, 49, 49);
+}
+
+li:last-child{
+    color: aqua;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}

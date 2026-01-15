@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(48, 46, 46);
+    font-family: sans-serif;
+    color: white;
+    background: linear-gradient(rgb(78, 77, 77),black);
+}
+
+form{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px 0px rgb(177, 175, 175);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border: 1px solid rgb(73, 71, 71);
+    border-radius: 5px;
+    color: white;
+}
+
+fieldset{
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+div{
+    width: auto;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+

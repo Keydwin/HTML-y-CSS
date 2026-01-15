@@ -1,0 +1,15 @@
+body{
+    background: rgb(53, 53, 53);
+    font-family: sans-serif;
+}
+
+details{
+    color: white;
+    border: 1px solid;
+}
+
+summary{
+    color: white;
+    border: 1px solid;
+    padding: 9px;
+}

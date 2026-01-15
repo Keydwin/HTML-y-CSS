@@ -1,0 +1,13 @@
+
+
+.caja{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.caja-predeterminada{
+    padding: 25px;
+    border: 10px solid black;
+}
