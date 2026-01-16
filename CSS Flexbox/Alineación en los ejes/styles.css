@@ -10,12 +10,16 @@ body{
     flex-wrap: wrap;
     border: 1px solid;
     justify-content: space-evenly;
-    align-content: ;
+    /* usar cuando se tenga varias columnas o filas */
+    align-content: end;
+    /* usar cuando se tenga una sola columna o una sola fila */
     align-items: ;
 }
 
 .flexbox__item{
-    width: 50px;
+    flex-basis: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
     text-align: center;
     padding: 20px;
     margin: 20px;
