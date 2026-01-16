@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    border: 1px solid;
+    justify-content: space-evenly;
+    align-content: ;
+    align-items: ;
+}
+
+.flexbox__item{
+    width: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: rgb(203, 204, 204);
+}
+
+.item--red{
+    background-color: red;
+}
+
+.item--blue{
+    background-color: blue;
+}
+
+.item--green{
+    background-color: green;
+}
