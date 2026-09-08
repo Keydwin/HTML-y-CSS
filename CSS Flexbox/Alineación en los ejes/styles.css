@@ -2,6 +2,8 @@ body{
     font-family: sans-serif;
     font-size: 20px;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 .flexbox{
@@ -14,6 +16,9 @@ body{
     align-content: end;
     /* usar cuando se tenga una sola columna o una sola fila */
     align-items: ;
+    margin: 10px;
+    border-radius: 10px green;
+
 }
 
 .flexbox__item{
