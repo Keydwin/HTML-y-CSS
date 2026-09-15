@@ -1,0 +1,17 @@
+
+
+.contenedor{
+    container-type: inline-size;
+    container-name: huevo;
+}
+
+p{
+    font-size: 30px;
+}
+
+@container huevo (max-width: 800px){
+    .texto{
+      font-size: 5px;  
+      color: aqua;
+    }
+}
