@@ -15,11 +15,6 @@
 }
 
 
-
-
-
-
-
 .grid2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -27,10 +22,25 @@
     gap: 10px;
     grid-auto-flow: row;
     grid-auto-rows: 100px;
-
+    margin-bottom: 40px;
 }
 
 .grid-item2{
+    background-color: #4765c0;
+    color: rgb(244, 237, 250);
+    padding: 10px;
+}
+
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 100px;
+    row-gap: 50px;
+}
+
+.grid-item3{
     background-color: #4765c0;
     color: rgb(244, 237, 250);
     padding: 10px;
