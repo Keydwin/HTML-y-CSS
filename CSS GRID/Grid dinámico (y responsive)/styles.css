@@ -1,0 +1,26 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr) );
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.grid-item{
+    background-color: #4765c0;
+    color: rgb(244, 237, 250);
+    padding: 10px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr) );
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-item2{
+    background-color: #4765c0;
+    color: rgb(244, 237, 250);
+    padding: 10px;
+}
