@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Creando una página WEB</title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <label for="open-menu" class="header__open-nav-button">=</label>
+        <div class="header__logo-contenedor">
+            <img src="img/Pixel Art 2B.jfif" class="header__logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav__list">
+                <li class="header__nav__list__item"><a href="#perfil" class="links">About</a></li>
+                <li class="header__nav__list__item"><a href="#portafolio" class="links">Portafolio</a></li>
+                <li class="header__nav__list__item"><a href="#contacto" class="links">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="perfil" id="perfil">
+        <div class="perfil__wrapper">
+            <div class="perfil__img-contenedor">
+                <img class="perfil__img" src="img/descarga.jfif">
+            </div>
+            <div class="perfil__data-container">
+                <div class="perfil__data">
+                    <div class="perfil__descripcion">
+                        <h1>¿Quien es 2b?</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo harum animi odio vitae ipsa fugiat praesentium quas maxime repellat, voluptas doloremque blanditiis temporibus mollitia? Cum magnam cupiditate vero praesentium ullam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta impedit quam animi, excepturi, tempora veniam quod, ducimus quae accusamus suscipit repellat eligendi reprehenderit sed id soluta! Ducimus ratione eos dolorum!</p>
+                    </div>
+                    <div class="perfil__habilidades-contenedor">
+                        <h2>Habilidades</h2>
+                        <ul>
+                            <li class="perfil__habilidad">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">80%</div>
+                                </div>
+                                <span class="perfil__habilidad-nombre">HTML</span>
+                            </li>
+
+                            <li class="perfil__habilidad">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--60">60%</div>
+                                </div>
+                                <span class="perfil__habilidad-nombre">CSS</span>
+                            </li>
+
+                            <li class="perfil__habilidad">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--50">50%</div>
+                                </div>
+                                <span class="perfil__habilidad-nombre">JAVASCRIPT</span>
+                            </li>
+
+                            <li class="perfil__habilidad">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--70">70%</div>
+                                </div>
+                                <span class="perfil__habilidad-nombre">PYTHON</span>
+                            </li>
+
+                            <li class="perfil__habilidad">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--60">60%</div>
+                                </div>
+                                <span class="perfil__habilidad-nombre">SQL</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="portafolio" id="portafolio">
+        <h2>SECCION DEL PORTAFOLIO</h2>
+        <div class="portafolio__proyecto-contenedor">
+            <div class="portafolio__proyecto">
+                <h2 class="portafolio__proyecto-nombre">PROJECTO</h2>
+            </div>
+            <div class="portafolio__proyecto">
+                <h2 class="portafolio__proyecto-nombre">PROJECTO</h2>
+            </div>
+            <div class="portafolio__proyecto">
+                <h2 class="portafolio__proyecto-nombre">PROJECTO</h2>
+            </div>
+            <div class="portafolio__proyecto">
+                <h2 class="portafolio__proyecto-nombre">PROJECTO</h2>
+            </div>
+            <div class="portafolio__proyecto">
+                <h2 class="portafolio__proyecto-nombre">PROJECTO</h2>
+            </div>
+            <div class="portafolio__proyecto">
+                <h2 class="portafolio__proyecto-nombre">PROJECTO</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="form" id="contacto">
+        <h2>CONTACTO</h2>
+        <form class="form__form">
+            <div class="form__input-contenedor">
+                <label>Nombre
+                    <input type="text" placeholder="Ingrese nombre">
+                </label>
+            </div>
+            <div class="form__input-contenedor">
+                <label>Apellido
+                    <input type="text" placeholder="Ingrese Apellido">
+                </label>
+            </div>
+            <div class="form__input-contenedor">
+                <label>Email
+                    <input type="email" placeholder="Ingrese su email">
+                </label>
+            </div>
+            <div class="form__input-contenedor">
+                <label>Mensaje
+                    <textarea placeholder="Ingrese mensaje a enviar"></textarea>
+                </label>
+            </div>
+            <div class="form__input-contenedor">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        Hecho con amor para <strong>2b</strong>
+    </footer>
+</body>
+</html>
