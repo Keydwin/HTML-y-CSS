@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    margin: 8px;
+    padding: 6px;
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 25px;
+}
+
+.caja__barra{
+    background-color: rgb(128, 59, 184);
+    border-radius: 25px;
+    padding: 40px;
+    width: 10%;
+    animation-name: llenar-barra;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-direction: alternate;
+}
+
+.caja__barra:active{
+    animation-play-state: running;
+}
+
+@keyframes llenar-barra{
+    from{
+        width: 0%;
+
+    }
+    to{
+        width: 100%;
+        background-color: antiquewhite;
+    }
+}
